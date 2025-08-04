@@ -63,6 +63,6 @@ je construis des projets personnels pour développer mes compétences techniques
 ---
 
 ## Contact
-- **Email** : ton.email@exemple.be  
-- **LinkedIn** : [Ton profil LinkedIn](#)  
-- **GitHub** : [Ton GitHub](#)
+- **Email** : matt.dewaegheneire@gmail.com
+- **LinkedIn** : [Mattéo Dewaegheneire](https://www.linkedin.com/in/matt%C3%A9o-dewaegheneire-9a541629a/)  
+- **GitHub** : [MatteoDwg](https://github.com/MatteoDwg)
