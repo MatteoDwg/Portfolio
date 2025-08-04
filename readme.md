@@ -23,11 +23,22 @@ je construis des projets personnels pour développer mes compétences techniques
 <!-- Projet 1 -->
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
-    <h3>Fritly</h3>
+    <h3>Fritly – Application interne pour une friterie</h3>
     <p>
-      <strong>Type :</strong> Application web <br>
-      <strong>Objectif :</strong> Créer une solution moderne pour [...] <br>
-      <strong>Technologies :</strong> Docker, GitLab CI/CD, Jira, déploiement automatisé
+      <strong>Contexte :</strong> Travaillant dans une friterie depuis plusieurs années, j’ai remarqué de nombreuses tâches redondantes (gestion du planning, procédures internes, recettes, etc.) qui pouvaient être centralisées dans un outil unique. <br>
+      <strong>Description :</strong> Fritly est une Progressive Web App (Angular, Spring, PostgreSQL) permettant : <br>
+      <ul>
+        <li>Gestion et visualisation des plannings.</li>
+        <li>Consultation des procédures (postes, nettoyages, recettes).</li>
+        <li>Accès aux fiches d’actions quotidiennes et recettes spéciales du mois.</li>
+      </ul>
+      <strong>Architecture et outils :</strong><br>
+      <ul>
+        <li>PWA pour unifier desktop et mobile sans développement natif.</li>
+        <li>Déploiement automatisé via GitLab CI/CD sur mon homelab.</li>
+        <li>Organisation et suivi du projet via Jira, développement sur IntelliJ IDEA.</li>
+      </ul>
+      Rôle : Développement complet (analyse, conception, backend, frontend, infrastructure) en collaboration avec un designer UI/UX.
     </p>
     <p>
       Ce projet m’a permis de mettre en place une architecture complète :
