@@ -2,13 +2,17 @@
 <p align="center">
   <a href="#a-propos">À propos</a> •
   <a href="#projets">Projets</a> •
+  <a href="#mon-cv">Mon C.V.</a> •
   <a href="#contact">Contact</a>
 </p>
 
 ---
 
 ## À propos
-Je suis un développeur passionné par les systèmes, réseaux et le développement logiciel.  
+Je suis passionné par l’informatique depuis plusieurs années, avec un intérêt particulier pour le développement et l’administration des systèmes et réseaux.
+
+Mon objectif actuel est de débuter ma carrière comme développeur full-stack ou technicien systèmes et réseaux, tout en continuant à me perfectionner sur les aspects techniques et architecturaux des systèmes.
+
 Actuellement à la recherche d’opportunités en tant que **développeur junior** ou **technicien support/système**,  
 je construis des projets personnels pour développer mes compétences techniques.
 
@@ -59,6 +63,11 @@ je construis des projets personnels pour développer mes compétences techniques
     <img src="images/homelab.png" alt="Homelab Network Diagram" width="300">
   </div>
 </div>
+
+---
+
+## Mon CV
+[**Télécharger mon CV (PDF)**](assets/Curriculum_Mattéo_2025_job_developpeur_fullstack.pdf){:target="_blank"}
 
 ---
 
