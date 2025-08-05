@@ -2,7 +2,7 @@
 .project-card {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin: 40px 0;
   gap: 20px;
 }
 
