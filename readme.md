@@ -1,4 +1,6 @@
 
+<link rel="stylesheet" href="assets/style.css">
+
 <!-- Navbar -->
 <p align="center">
   <a href="#a-propos">À propos</a> •
