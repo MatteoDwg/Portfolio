@@ -20,14 +20,12 @@ je construis des projets personnels pour développer mes compétences techniques
 
 ## Projets
 
-<div style="display: flex; gap: 20px;">
-  <div style="border: 1px solid #ccc; padding: 15px; width: 250px;">
-    <img src="fritly-thumbnail.png" alt="Fritly" style="width:100%;">
-    <h3>Fritly</h3>
-    <p>Une PWA pour la gestion interne d’une friterie.</p>
-    <p><strong>Tech:</strong> Angular, Spring, PostgreSQL</p>
-    <a href="fritly.md">Voir plus</a>
-  </div>
+<div style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; width: 100%;">
+  <img src="fritly-thumbnail.png" alt="Fritly" style="width:100%;">
+  <h3>Fritly</h3>
+  <p>Une PWA pour la gestion interne d’une friterie.</p>
+  <p><strong>Tech:</strong> Angular, Spring, PostgreSQL</p>
+  <a href="fritly.md">Voir plus</a>
 </div>
 
 ---
