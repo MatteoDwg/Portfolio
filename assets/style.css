@@ -1,0 +1,46 @@
+
+.project-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.project-image img {
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+.project-text {
+  flex: 2;
+}
+
+/* BADGES */
+.badges img {
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* LIEN */
+.see-more {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0366d6;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .project-card {
+    flex-direction: column; /* Passe en colonne */
+    text-align: center;
+  }
+
+  .project-text {
+    padding-left: 0; /* Supprimer le padding desktop */
+  }
+
+  .project-image img {
+    width: 100%;
+    height: auto;
+  }
+}
