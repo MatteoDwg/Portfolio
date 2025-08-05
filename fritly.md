@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: projects
 title: "Fritly"
+description: "Application interne pour une friterie"
 ---
 
 <!-- Projet 1 -->
