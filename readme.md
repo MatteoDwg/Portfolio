@@ -25,7 +25,7 @@ je construis des projets personnels pour développer mes compétences techniques
   <h3>Fritly</h3>
   <p>Une PWA pour la gestion interne d’une friterie.</p>
   <p><strong>Tech:</strong> Angular, Spring, PostgreSQL</p>
-  <a href="fritly.md">Voir plus</a>
+  <a href="/fritly">Voir plus</a>
 </div>
 
 ---
