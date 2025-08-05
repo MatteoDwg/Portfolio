@@ -20,22 +20,30 @@ je construis des projets personnels pour développer mes compétences techniques
 
 ## Projets
 
-<div style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; width: 100%;">
-  <img src="fritly-thumbnail.png" alt="Fritly" style="width:100%;">
-  <h3>Fritly</h3>
-  <p>Une PWA pour la gestion interne d’une friterie.</p>
-  <p><strong>Tech:</strong> Angular, Spring, PostgreSQL</p>
-  <a href="/fritly">Voir plus</a>
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/fritly_functionnalities.png" alt="Fritly" style="width: 40%; border-radius: 10px; margin-right: 20px;">
+  <div style="flex: 1;">
+    <h3>Fritly</h3>
+    <p>Fritly est une application interne destinée aux employés d'une friterie. 
+    L'objectif est d'automatiser des tâches redondantes et de centraliser l'information. 
+    Fonctionnalités principales : gestion du planning, accès aux procédures, fiches d'action et recettes. 
+    Développé en Angular, Spring Boot, PostgreSQL, et déployé via GitLab CI/CD sur mon homelab.</p>
+    <a href="/fritly">Voir plus</a>
+  </div>
 </div>
 
 ---
 
-<div style="border: 1px solid #ccc; padding: 20px; margin-bottom: 20px; width: 100%;">
-  <img src="fritly-thumbnail.png" alt="Fritly" style="width:100%;">
-  <h3>Homelab</h3>
-  <p>Une PWA pour la gestion interne d’une friterie.</p>
-  <p><strong>Tech:</strong> Angular, Spring, PostgreSQL</p>
-  <a href="/homelab">Voir plus</a>
+<div style="display: flex; align-items: center; margin-bottom: 40px;">
+  <img src="images/homelab_schema.png" alt="Homelab" style="width: 40%; border-radius: 10px; margin-right: 20px;">
+  <div style="flex: 1;">
+    <h3>Homelab</h3>
+    <p>Fritly est une application interne destinée aux employés d'une friterie. 
+    L'objectif est d'automatiser des tâches redondantes et de centraliser l'information. 
+    Fonctionnalités principales : gestion du planning, accès aux procédures, fiches d'action et recettes. 
+    Développé en Angular, Spring Boot, PostgreSQL, et déployé via GitLab CI/CD sur mon homelab.</p>
+    <a href="/homelab">Voir plus</a>
+  </div>
 </div>
 
 ---
