@@ -1,3 +1,52 @@
+<style>
+  .project-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+  }
+  
+  .project-image img {
+    max-width: 90%;
+    border-radius: 8px;
+  }
+  
+  .project-text {
+    flex: 2;
+  }
+  
+  /* BADGES */
+  .badges img {
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  
+  /* LIEN */
+  .see-more {
+    font-weight: bold;
+    text-decoration: none;
+    color: #0366d6;
+  }
+  
+  /* --- RESPONSIVE --- */
+  @media (max-width: 768px) {
+    .project-card {
+      flex-direction: column; /* Passe en colonne */
+      text-align: center;
+    }
+  
+    .project-text {
+      padding-left: 0; /* Supprimer le padding desktop */
+    }
+  
+    .project-image img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+</style>
+
 <!-- Navbar -->
 <p align="center">
   <a href="#a-propos">À propos</a> •
@@ -20,21 +69,25 @@ je construis des projets personnels pour développer mes compétences techniques
 
 ## Projets
 
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
+<div class="project-card">
   <!-- IMAGE -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/fritly_functionnalities.png" alt="Schéma Fritly" style="max-width: 90%; border-radius: 8px;">
+  <div class="project-image">
+    <img src="images/fritly_functionnalities.png" alt="Schéma Fritly">
   </div>
 
   <!-- TEXTE -->
-  <div style="flex: 2; padding-left: 20px;">
+  <div class="project-text">
     <h3>Fritly</h3>
     <p><strong>À quoi ça sert ?</strong><br>
-    Fritly est un outil interne pour simplifier la gestion d’une friterie. Il centralise le planning des employés, les procédures, les recettes et les actions quotidiennes, pour éviter les tâches redondantes et améliorer l’organisation.</p>
+      Fritly est un outil interne pour simplifier la gestion d’une friterie. Il centralise le planning des employés,
+      les procédures, les recettes et les actions quotidiennes, pour éviter les tâches redondantes et améliorer
+      l’organisation.</p>
     <p><strong>Pourquoi ce projet ?</strong><br>
-    Après plusieurs années à travailler dans une friterie, j’ai constaté des problèmes de gestion récurrents. Ce projet me permet d’appliquer mes compétences pour créer une solution adaptée au terrain, tout en collaborant avec un designer UI/UX.</p>
+      Après plusieurs années à travailler dans une friterie, j’ai constaté des problèmes de gestion récurrents.
+      Ce projet me permet d’appliquer mes compétences pour créer une solution adaptée au terrain, tout en
+      collaborant avec un designer UI/UX.</p>
     <!-- BADGES -->
-    <div>
+    <div class="badges">
       <img src="https://img.shields.io/badge/Angular-000000?logo=angular&logoColor=white" alt="Angular" />
       <img src="https://img.shields.io/badge/Spring_Boot-000000?logo=springboot&logoColor=white" alt="Spring Boot" />
       <img src="https://img.shields.io/badge/PostgreSQL-000000?logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -43,7 +96,7 @@ je construis des projets personnels pour développer mes compétences techniques
       <img src="https://img.shields.io/badge/Jira-000000?logo=jira&logoColor=white" alt="Jira">
     </div>
     <!-- LIEN VOIR PLUS -->
-    <p><a href="/fritly" style="font-weight: bold; text-decoration: none; color: #0366d6;">→ Voir plus</a></p>
+    <p><a href="/fritly" class="see-more">→ Voir plus</a></p>
   </div>
 </div>
 
