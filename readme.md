@@ -20,31 +20,62 @@ je construis des projets personnels pour développer mes compétences techniques
 
 ## Projets
 
+## Mes Projets
+
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/fritly_functionnalities.png" alt="Fritly" style="width: 40%; border-radius: 10px; margin-right: 20px;">
-  <div style="flex: 1;">
-    <h3>Fritly</h3>
-    <p>Fritly est une application interne destinée aux employés d'une friterie. 
-    L'objectif est d'automatiser des tâches redondantes et de centraliser l'information. 
-    Fonctionnalités principales : gestion du planning, accès aux procédures, fiches d'action et recettes. 
-    Développé en Angular, Spring Boot, PostgreSQL, et déployé via GitLab CI/CD sur mon homelab.</p>
-    <a href="/fritly">Voir plus</a>
+  <!-- IMAGE -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/fritly_functionnalities.png" alt="Schéma Fritly" style="max-width: 90%; border-radius: 8px;">
+  </div>
+
+  <!-- TEXTE -->
+  <div style="flex: 2; padding-left: 20px;">
+    <h2>Fritly</h2>
+    <p><strong>À quoi ça sert ?</strong><br>
+    Fritly est un outil interne pour simplifier la gestion d’une friterie. Il centralise le planning des employés, les procédures, les recettes et les actions quotidiennes, pour éviter les tâches redondantes et améliorer l’organisation.</p>
+    <p><strong>Pourquoi ce projet ?</strong><br>
+    Après plusieurs années à travailler dans une friterie, j’ai constaté des problèmes de gestion récurrents. Ce projet me permet d’appliquer mes compétences pour créer une solution adaptée au terrain, tout en collaborant avec un designer UI/UX.</p>
+    <!-- BADGES -->
+    <div>
+      <img src="https://img.shields.io/badge/Angular-000000?logo=angular&logoColor=white" alt="Angular" />
+      <img src="https://img.shields.io/badge/Spring_Boot-000000?logo=springboot&logoColor=white" alt="Spring Boot" />
+      <img src="https://img.shields.io/badge/PostgreSQL-000000?logo=postgresql&logoColor=white" alt="PostgreSQL" />
+      <img src="https://img.shields.io/badge/Docker-000000?logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/GitLab-000000?logo=gitlab&logoColor=white" alt="GitLab" />
+      <img src="https://img.shields.io/badge/Jira-000000?logo=jira&logoColor=white" alt="Jira">
+    </div>
+    <!-- LIEN VOIR PLUS -->
+    <p><a href="/fritly" style="font-weight: bold; text-decoration: none; color: #0366d6;">→ Voir plus</a></p>
   </div>
 </div>
 
 ---
 
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
-  <img src="images/homelab_schema.png" alt="Homelab" style="width: 40%; border-radius: 10px; margin-right: 20px;">
-  <div style="flex: 1;">
-    <h3>Homelab</h3>
-    <p>Fritly est une application interne destinée aux employés d'une friterie. 
-    L'objectif est d'automatiser des tâches redondantes et de centraliser l'information. 
-    Fonctionnalités principales : gestion du planning, accès aux procédures, fiches d'action et recettes. 
-    Développé en Angular, Spring Boot, PostgreSQL, et déployé via GitLab CI/CD sur mon homelab.</p>
-    <a href="/homelab">Voir plus</a>
+  <!-- IMAGE -->
+  <div style="flex: 1; text-align: center;">
+    <img src="images/homelab_schema.png" alt="Schéma Homelab" style="max-width: 90%; border-radius: 8px;">
+  </div>
+
+  <!-- TEXTE -->
+  <div style="flex: 2; padding-left: 20px;">
+    <h2>Homelab</h2>
+    <p><strong>À quoi ça sert ?</strong><br>
+    Mon homelab est une infrastructure personnelle qui me permet d’héberger des projets, d’expérimenter de nouvelles technologies et d’apprendre l’administration système. Il accueille à la fois des applications, des services et des environnements de test.</p>
+    <p><strong>Pourquoi ce projet ?</strong><br>
+    Je voulais disposer d’une plateforme flexible pour expérimenter. Mon homelab héberge des services variés : authentification centralisée, VPN, serveur Minecraft, CI/CD, monitoring réseau, outils IoT et bien plus, afin de reproduire des conditions proches d’une architecture professionnelle.</p>
+    <!-- BADGES -->
+    <div>
+      <img src="https://img.shields.io/badge/Docker-000000?logo=docker&logoColor=white" alt="Docker" />
+      <img src="https://img.shields.io/badge/Proxmox-000000?logo=proxmox&logoColor=white" alt="Proxmox" />
+      <img src="https://img.shields.io/badge/Traefik-000000?logo=traefik&logoColor=white" alt="Traefik" />
+      <img src="https://img.shields.io/badge/WireGuard-000000?logo=wireguard&logoColor=white" alt="WireGuard" />
+    </div>
+    <!-- LIEN VOIR PLUS -->
+    <p><a href="/homelab" style="font-weight: bold; text-decoration: none; color: #0366d6;">→ Voir plus</a></p>
   </div>
 </div>
+
 
 ---
 
