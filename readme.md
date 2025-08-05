@@ -20,8 +20,6 @@ je construis des projets personnels pour développer mes compétences techniques
 
 ## Projets
 
-## Mes Projets
-
 <div style="display: flex; align-items: center; margin-bottom: 40px;">
   <!-- IMAGE -->
   <div style="flex: 1; text-align: center;">
@@ -30,7 +28,7 @@ je construis des projets personnels pour développer mes compétences techniques
 
   <!-- TEXTE -->
   <div style="flex: 2; padding-left: 20px;">
-    <h2>Fritly</h2>
+    <h3>Fritly</h3>
     <p><strong>À quoi ça sert ?</strong><br>
     Fritly est un outil interne pour simplifier la gestion d’une friterie. Il centralise le planning des employés, les procédures, les recettes et les actions quotidiennes, pour éviter les tâches redondantes et améliorer l’organisation.</p>
     <p><strong>Pourquoi ce projet ?</strong><br>
@@ -59,7 +57,7 @@ je construis des projets personnels pour développer mes compétences techniques
 
   <!-- TEXTE -->
   <div style="flex: 2; padding-left: 20px;">
-    <h2>Homelab</h2>
+    <h3>Homelab</h3>
     <p><strong>À quoi ça sert ?</strong><br>
     Mon homelab est une infrastructure personnelle qui me permet d’héberger des projets, d’expérimenter de nouvelles technologies et d’apprendre l’administration système. Il accueille à la fois des applications, des services et des environnements de test.</p>
     <p><strong>Pourquoi ce projet ?</strong><br>
