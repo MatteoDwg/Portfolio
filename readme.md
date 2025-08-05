@@ -56,28 +56,28 @@ je construis des projets personnels pour développer mes compétences techniques
 
 ---
 
-<div style="display: flex; align-items: center; margin-bottom: 40px;">
+<div class="project-card">
   <!-- IMAGE -->
-  <div style="flex: 1; text-align: center;">
-    <img src="images/homelab_schema.png" alt="Schéma Homelab" style="max-width: 90%; border-radius: 8px;">
+  <div class="project-image">
+    <img src="images/homelab_schema.png" alt="Schéma Homelab">
   </div>
 
   <!-- TEXTE -->
-  <div style="flex: 2; padding-left: 20px;">
+  <div class="project-text">
     <h3>Homelab</h3>
     <p><strong>À quoi ça sert ?</strong><br>
     Mon homelab est une infrastructure personnelle qui me permet d’héberger des projets, d’expérimenter de nouvelles technologies et d’apprendre l’administration système. Il accueille à la fois des applications, des services et des environnements de test.</p>
     <p><strong>Pourquoi ce projet ?</strong><br>
     Je voulais disposer d’une plateforme flexible pour expérimenter. Mon homelab héberge des services variés : authentification centralisée, VPN, serveur Minecraft, CI/CD, monitoring réseau, outils IoT et bien plus, afin de reproduire des conditions proches d’une architecture professionnelle.</p>
     <!-- BADGES -->
-    <div>
+    <div class="badges">
       <img src="https://img.shields.io/badge/Docker-000000?logo=docker&logoColor=white" alt="Docker" />
       <img src="https://img.shields.io/badge/Proxmox-000000?logo=proxmox&logoColor=white" alt="Proxmox" />
       <img src="https://img.shields.io/badge/Traefik-000000?logo=traefik&logoColor=white" alt="Traefik" />
       <img src="https://img.shields.io/badge/WireGuard-000000?logo=wireguard&logoColor=white" alt="WireGuard" />
     </div>
     <!-- LIEN VOIR PLUS -->
-    <p><a href="/homelab" style="font-weight: bold; text-decoration: none; color: #0366d6;">→ Voir plus</a></p>
+    <p><a href="/homelab" class="see-more">→ Voir plus</a></p>
   </div>
 </div>
 
