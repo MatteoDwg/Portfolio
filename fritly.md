@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Fritly"
+---
+
 <!-- Projet 1 -->
 <div style="display: flex; align-items: center;">
   <div style="flex: 1;">
