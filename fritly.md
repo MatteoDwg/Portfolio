@@ -4,6 +4,20 @@ title: "Fritly"
 description: "Application interne pour une friterie"
 ---
 
+<script>
+  const lightbox = document.getElementById("lightbox");
+  const lightboxImg = document.getElementById("lightbox-img");
+  document.querySelectorAll(".zoomable").forEach(img => {
+    img.addEventListener("click", () => {
+      lightbox.style.display = "flex";
+      lightboxImg.src = img.src;
+    });
+  });
+  lightbox.addEventListener("click", () => {
+    lightbox.style.display = "none";
+  });
+</script>
+
 
 ## 1. Introduction
 
@@ -51,24 +65,55 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 ---
 
 ## 3. Stack & Tools
-### Stack technologique
-- **Frontend** : *(préciser la techno, ex. React, Vue, etc.)*  
-- **Backend** : *(préciser la techno, ex. Node.js, Laravel, etc.)*  
-- **Base de données** : *(préciser, ex. PostgreSQL, MySQL, etc.)*  
-- **Type d’application** : PWA (Progressive Web App) pour un accès simple et multiplateforme.
 
-*(Si pertinent, expliquer pourquoi tu as choisi une PWA.)*
+<div style="margin-bottom: 40px;">
+  <p>
+    Fritly repose sur une stack moderne, pensée pour offrir une application performante et facile à utiliser,
+    tout en restant simple à déployer pour les employés.
+  </p>
 
-### Outils
-- **GitLab** : dépôt de code et gestion des branches  
-- **GitLab CI/CD** : intégration et déploiement automatisés  
-- **Docker** : build et déploiement des environnements  
-- **Jira** : gestion du backlog et suivi des tâches (Scrum simplifié)  
-- **Figma** : conception des maquettes UX/UI  
+  <!-- IMAGE : Schéma architecture (Frontend -> Backend -> BDD) -->
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="images/fritly_architecture.png" alt="Schéma de l'architecture de Fritly" style="max-width: 90%; border-radius: 8px;">
+  </div>
 
-*(Image : screenshot Jira)*  
-*(Image : screenshot GitLab)*  
-*(Image : capture Figma)*
+  <h3>Technologies principales</h3>
+  <ul>
+    <li><strong>Angular :</strong> pour un frontend réactif et ergonomique.</li>
+    <li><strong>Spring Boot :</strong> pour un backend robuste et sécurisé.</li>
+    <li><strong>PostgreSQL :</strong> pour une base de données fiable et performante.</li>
+  </ul>
+
+  <p>
+    L’application est développée comme une <strong>PWA (Progressive Web App)</strong>, 
+    ce qui permet :
+  </p>
+  <ul>
+    <li>Une installation directe depuis le navigateur (pas besoin d’app store).</li>
+    <li>Des mises à jour instantanées pour tous les utilisateurs.</li>
+    <li>Une expérience proche du natif tout en restant légère et simple à maintenir.</li>
+  </ul>
+
+  <h3>Outils de conception et de gestion</h3>
+  <p>Plusieurs outils accompagnent le développement du projet :</p>
+  <ul>
+    <li><strong>Figma :</strong> pour la création des maquettes UX/UI en collaboration avec le designer.</li>
+    <li><strong>Jira :</strong> pour organiser les tâches et suivre la méthode Agile (Scrum simplifié).</li>
+    <li><strong>GitLab :</strong> pour la gestion du dépôt et du CI/CD.</li>
+    <li><strong>IntelliJ IDEA :</strong> comme IDE principal pour le développement backend.</li>
+  </ul>
+  
+  <div id="lightbox">
+    <img id="lightbox-img">
+  </div>
+  
+  <!-- IMAGES : Screens Figma, Jira, GitLab -->
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0;">
+    <img src="images/fritly_figma.png" alt="Maquette Figma de Fritly" style="flex: 1 1 250px; max-width: 300px; border-radius: 8px;" class="zoomable">
+    <img src="images/fritly_jira.png" alt="Aperçu Jira du projet Fritly" style="flex: 1 1 250px; max-width: 300px; border-radius: 8px;" class="zoomable">
+    <img src="images/fritly_gitlab.png" alt="Dépôt GitLab du projet Fritly" style="flex: 1 1 250px; max-width: 300px; border-radius: 8px;" class="zoomable"> 
+  </div>
+</div>
 
 ---
 
