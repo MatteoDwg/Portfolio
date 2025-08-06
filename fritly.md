@@ -6,18 +6,21 @@ description: "Application interne pour une friterie"
 
 
 ## 1. Introduction
-Fritly est un outil interne destiné aux employés, conçu pour faciliter la gestion quotidienne :  
-- Organisation des plannings  
-- Consultation des procédures (recettes, nettoyage, poste de travail)  
-- Fiches quotidiennes  
-- Collecte des "burgers/sandwichs du mois"
 
-**Pourquoi ce projet ?**  
-*(À compléter : explique ici ce qui t’a motivé à lancer ce projet. Par exemple : améliorer l’efficacité en interne, éviter la perte d’informations, offrir une interface claire et moderne, etc.)*
+### Pourquoi ce projet ?
+Après plusieurs années à travailler dans une friterie, j’ai réalisé qu’une bonne partie du quotidien pouvait être simplifiée. Les plannings se faisaient souvent à la main, les procédures étaient éparpillées et il n’existait pas d’outil centralisé pour tout rassembler.
 
-Le projet est développé à deux :  
-- Moi : développement, intégration CI/CD, déploiements  
-- Mon collaborateur : conception UX/UI et maquettes
+### L’objectif
+Créer une application pensée pour les employés :
+
+gérer facilement les horaires, absences et remplacements,
+
+centraliser toutes les informations utiles (procédures, fiches quotidiennes, etc.),
+
+et poser les bases pour ajouter d’autres fonctionnalités au fur et à mesure des besoins.
+
+### Une collaboration
+Je développe l’application, tandis qu’un ami graphiste/designer s’occupe de l’UX/UI. L’idée est d’allier fonctionnalité et ergonomie dès le départ.
 
 ---
 
@@ -83,5 +86,3 @@ Le projet est développé à deux :
   - Tests utilisateurs internes
   - Déploiement en production
   - Améliorations basées sur les retours des employés
-
----
