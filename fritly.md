@@ -6,21 +6,6 @@ description: "Application interne pour une friterie"
 
 <link rel="stylesheet" href="assets/style.css">
 
-<script>
-  const lightbox = document.getElementById("lightbox");
-  const lightboxImg = document.getElementById("lightbox-img");
-  document.querySelectorAll(".zoomable").forEach(img => {
-    img.addEventListener("click", () => {
-      lightbox.style.display = "flex";
-      lightboxImg.src = img.src;
-    });
-  });
-  lightbox.addEventListener("click", () => {
-    lightbox.style.display = "none";
-  });
-</script>
-
-
 ## 1. Introduction
 
 ### Pourquoi ce projet ?
@@ -50,7 +35,7 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 
   <!-- IMAGE : Schéma des fonctionnalités -->
   <div style="text-align: center; margin: 20px 0;">
-    <img src="images/fritly_functionnalities.png" alt="Schéma des fonctionnalités de Fritly" style="max-width: 90%; border-radius: 8px;">
+    <img src="images/fritly_functionnalities.png" alt="Schéma des fonctionnalités de Fritly" style="max-width: 90%; border-radius: 8px;" class="zoomable">
   </div>
 
   <p>
