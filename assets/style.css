@@ -27,6 +27,30 @@
   color: #0366d6;
 }
 
+.zoomable {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.zoomable:hover {
+  opacity: 0.8;
+}
+#lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+
 /* --- RESPONSIVE --- */
 @media (max-width: 768px) {
   .project-card {
