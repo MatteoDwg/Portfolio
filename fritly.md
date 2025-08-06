@@ -4,6 +4,8 @@ title: "Fritly"
 description: "Application interne pour une friterie"
 ---
 
+<link rel="stylesheet" href="assets/style.css">
+
 <script>
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById("lightbox-img");
@@ -74,7 +76,7 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 
   <!-- IMAGE : Schéma architecture (Frontend -> Backend -> BDD) -->
   <div style="text-align: center; margin: 20px 0;">
-    <img src="images/fritly_architecture.png" alt="Schéma de l'architecture de Fritly" style="max-width: 90%; border-radius: 8px;">
+    <img src="images/fritly_architecture.png" alt="Schéma de l'architecture de Fritly" style="max-width: 90%; border-radius: 8px;" class="zoomable">
   </div>
 
   <h3>Technologies principales</h3>
