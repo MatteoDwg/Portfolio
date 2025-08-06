@@ -29,10 +29,10 @@
 
 .zoomable {
   cursor: pointer;
-  transition: 0.3s;
+  #transition: 0.3s;
 }
 .zoomable:hover {
-  opacity: 0.8;
+  #opacity: 0.8;
 }
 #lightbox {
   position: fixed;
