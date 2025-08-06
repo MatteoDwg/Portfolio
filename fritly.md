@@ -25,16 +25,29 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 ---
 
 ## 2. Fonctionnalités principales
-- Gestion des plannings par poste de travail  
-- Accès aux recettes et procédures opérationnelles  
-- Saisie et suivi des fiches quotidiennes  
-- Vote et affichage des “burgers/sandwichs du mois”  
+<div style="margin-bottom: 40px;">
+  <p>
+    Fritly regroupe tout ce dont les employés ont besoin pour simplifier leur quotidien.
+    L’idée est de commencer par les fonctionnalités essentielles et d’élargir progressivement
+    en fonction des retours et des besoins réels sur le terrain.
+  </p>
 
-**Focus sur le design des plannings :**  
-*(Explique brièvement les choix faits pour rendre cette fonctionnalité intuitive : code couleur, ergonomie, lisibilité, etc.)*
+  <!-- IMAGE : Schéma des fonctionnalités -->
+  <div style="text-align: center; margin: 20px 0;">
+    <img src="images/fritly_functionnalities.png" alt="Schéma des fonctionnalités de Fritly" style="max-width: 90%; border-radius: 8px;">
+  </div>
 
-*(Image : schéma des fonctionnalités principales)*
-
+  <p>
+    Les fonctionnalités actuellement prévues incluent :
+    <ul>
+      <li>Gestion des plannings (horaires, absences et remplacements)</li>
+      <li>Centralisation des procédures (recettes, nettoyage, organisation des postes)</li>
+      <li>Fiches quotidiennes pour le suivi des tâches</li>
+      <li>Collecte des suggestions et idées (ex. “burger du mois”)</li>
+    </ul>
+    De nouvelles idées seront intégrées au fur et à mesure, en fonction des besoins exprimés par les utilisateurs.
+  </p>
+</div>
 ---
 
 ## 3. Stack & Tools
