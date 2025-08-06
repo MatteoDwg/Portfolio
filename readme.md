@@ -11,6 +11,10 @@
 
 ---
 
+<div id="lightbox">
+  <img id="lightbox-img">
+</div>
+
 ## À propos
 Je suis passionné par l’informatique depuis plusieurs années, avec un intérêt particulier pour le développement et l’administration des systèmes et réseaux.
 
@@ -26,7 +30,7 @@ je construis des projets personnels pour développer mes compétences techniques
 <div class="project-card">
   <!-- IMAGE -->
   <div class="project-image">
-    <img src="images/fritly_functionnalities.png" alt="Schéma Fritly">
+    <img src="images/fritly_functionnalities.png" alt="Schéma Fritly" class="zoomable">
   </div>
 
   <!-- TEXTE -->
@@ -59,7 +63,7 @@ je construis des projets personnels pour développer mes compétences techniques
 <div class="project-card">
   <!-- IMAGE -->
   <div class="project-image">
-    <img src="images/homelab_schema.png" alt="Schéma Homelab">
+    <img src="images/homelab_schema.png" alt="Schéma Homelab" class="zoomable">
   </div>
 
   <!-- TEXTE -->
