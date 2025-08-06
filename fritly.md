@@ -4,34 +4,84 @@ title: "Fritly"
 description: "Application interne pour une friterie"
 ---
 
-<!-- Projet 1 -->
-<div style="display: flex; align-items: center;">
-  <div style="flex: 1;">
-    <h3>Fritly – Application interne pour une friterie</h3>
-    <p>
-      <strong>Contexte :</strong> Travaillant dans une friterie depuis plusieurs années, j’ai remarqué de nombreuses tâches redondantes (gestion du planning, procédures internes, recettes, etc.) qui pouvaient être centralisées dans un outil unique. J’ai décidé de créer une application interne pour centraliser ces informations et simplifier la gestion quotidienne.<br>
-      <strong>Fonctionnalités principales :</strong><br>
-      <ul>
-        <li>Gestion et visualisation des plannings.</li>
-        <li>Consultation des procédures (postes, nettoyages, recettes).</li>
-        <li>Accès aux fiches d’actions quotidiennes et recettes spéciales du mois.</li>
-      </ul>
-      <strong>Architecture et outils :</strong><br>
-      <ul>
-        <li>PWA pour unifier desktop et mobile sans développement natif.</li>
-        <li>Angular + Spring + PostgreSQL : un stack robuste, modulaire et maintenable pour gérer à la fois l’interface, l’API et la base de données.</li>
-        <li>CI/CD avec GitLab déployé automatiquement sur mon homelab pour simuler un environnement de production réel.</li>
-        <li>Organisation et suivi du projet via Jira, développement sur IntelliJ IDEA.</li>
-      </ul>
-      Rôle : Développement complet (analyse, conception, backend, frontend, infrastructure) en collaboration avec un designer UI/UX.
-    </p>
-    <p>
-      Ce projet m’a permis de mettre en place une architecture complète :
-      pipeline CI/CD, orchestration des services avec Docker,
-      gestion de projet via Jira, et un déploiement automatisé.
-    </p>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="images/fritly.png" alt="Fritly Screenshot" width="300">
-  </div>
-</div>
+
+## 1. Introduction
+Fritly est un outil interne destiné aux employés, conçu pour faciliter la gestion quotidienne :  
+- Organisation des plannings  
+- Consultation des procédures (recettes, nettoyage, poste de travail)  
+- Fiches quotidiennes  
+- Collecte des "burgers/sandwichs du mois"
+
+**Pourquoi ce projet ?**  
+*(À compléter : explique ici ce qui t’a motivé à lancer ce projet. Par exemple : améliorer l’efficacité en interne, éviter la perte d’informations, offrir une interface claire et moderne, etc.)*
+
+Le projet est développé à deux :  
+- Moi : développement, intégration CI/CD, déploiements  
+- Mon collaborateur : conception UX/UI et maquettes
+
+---
+
+## 2. Fonctionnalités principales
+- Gestion des plannings par poste de travail  
+- Accès aux recettes et procédures opérationnelles  
+- Saisie et suivi des fiches quotidiennes  
+- Vote et affichage des “burgers/sandwichs du mois”  
+
+**Focus sur le design des plannings :**  
+*(Explique brièvement les choix faits pour rendre cette fonctionnalité intuitive : code couleur, ergonomie, lisibilité, etc.)*
+
+*(Image : schéma des fonctionnalités principales)*
+
+---
+
+## 3. Stack & Tools
+### Stack technologique
+- **Frontend** : *(préciser la techno, ex. React, Vue, etc.)*  
+- **Backend** : *(préciser la techno, ex. Node.js, Laravel, etc.)*  
+- **Base de données** : *(préciser, ex. PostgreSQL, MySQL, etc.)*  
+- **Type d’application** : PWA (Progressive Web App) pour un accès simple et multiplateforme.
+
+*(Si pertinent, expliquer pourquoi tu as choisi une PWA.)*
+
+### Outils
+- **GitLab** : dépôt de code et gestion des branches  
+- **GitLab CI/CD** : intégration et déploiement automatisés  
+- **Docker** : build et déploiement des environnements  
+- **Jira** : gestion du backlog et suivi des tâches (Scrum simplifié)  
+- **Figma** : conception des maquettes UX/UI  
+
+*(Image : screenshot Jira)*  
+*(Image : screenshot GitLab)*  
+*(Image : capture Figma)*
+
+---
+
+## 4. Organisation & Méthodologie
+- Méthode **Scrum simplifiée** : backlog, itérations courtes, priorisation des fonctionnalités essentielles.  
+- Répartition des rôles :
+  - **Moi** : développement complet, CI/CD, déploiement  
+  - **Collaborateur** : UX/UI et design des interfaces (via Figma)
+
+---
+
+## 5. CI/CD & Environnements
+- **Branches Git** : `dev` pour les développements, `main` pour la production  
+- **Pipeline GitLab CI/CD** :  
+  - Lancement des tests automatiques  
+  - Build Docker de l’application  
+  - Déploiement automatique selon la branche (dev ou prod)
+
+*(Schéma : fonctionnement du pipeline CI/CD)*  
+*(Schéma : architecture app - Frontend → Backend → Base de données)*
+
+---
+
+## 6. Avancement du projet
+- **Déjà réalisé** : *(liste rapide, ex. maquettes Figma, base de l’API, premier prototype frontend, pipeline CI/CD configuré, etc.)*  
+- **En cours / à venir** :
+  - Développement complet des fonctionnalités
+  - Tests utilisateurs internes
+  - Déploiement en production
+  - Améliorations basées sur les retours des employés
+
+---
