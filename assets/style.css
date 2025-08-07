@@ -61,7 +61,7 @@
 
 .tool-item {
   flex: 1 1 300px;
-  max-width: 32%;
+  max-width: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,7 +103,7 @@
   
 @media (max-width: 900px) {
   .tool-item {
-    max-width: 48%;
+    max-width: 40%;
   }
 }
 
