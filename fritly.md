@@ -97,15 +97,15 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
   <!-- IMAGES : Screens Figma, Jira, GitLab -->
   <div class="tool-gallery">
     <div class="tool-item">
-      <img src="images/jira-board.png" alt="Board Jira" class="zoomable">
+      <img src="images/jira.png" alt="Board Jira" class="zoomable">
       <p class="caption">Suivi de projet et gestion des sprints avec Jira.</p>
     </div>
     <div class="tool-item">
-      <img src="images/figma-planning.png" alt="Maquette Figma" class="zoomable">
+      <img src="images/figma.png" alt="Maquette Figma" class="zoomable">
       <p class="caption">Prototypage et design des interfaces avec Figma.</p>
     </div>
     <div class="tool-item">
-      <img src="images/gitlab-ci.png" alt="GitLab CI/CD" class="zoomable">
+      <img src="images/gitlab.png" alt="GitLab CI/CD" class="zoomable">
       <p class="caption">Gestion du code, intégration continue et déploiement via GitLab.</p>
     </div>
   </div>
