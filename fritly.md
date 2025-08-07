@@ -95,10 +95,19 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
   </div>
   
   <!-- IMAGES : Screens Figma, Jira, GitLab -->
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0;">
-    <img src="images/fritly_figma.png" alt="Maquette Figma de Fritly" style="flex: 1 1 250px; max-width: 300px; border-radius: 8px;" class="zoomable">
-    <img src="images/fritly_jira.png" alt="Aperçu Jira du projet Fritly" style="flex: 1 1 250px; max-width: 300px; border-radius: 8px;" class="zoomable">
-    <img src="images/fritly_gitlab.png" alt="Dépôt GitLab du projet Fritly" style="flex: 1 1 250px; max-width: 300px; border-radius: 8px;" class="zoomable"> 
+  <div class="tool-gallery">
+    <div class="tool-item">
+      <img src="images/jira-board.png" alt="Board Jira" class="zoomable">
+      <p class="caption">Suivi de projet et gestion des sprints avec Jira.</p>
+    </div>
+    <div class="tool-item">
+      <img src="images/figma-planning.png" alt="Maquette Figma" class="zoomable">
+      <p class="caption">Prototypage et design des interfaces avec Figma.</p>
+    </div>
+    <div class="tool-item">
+      <img src="images/gitlab-ci.png" alt="GitLab CI/CD" class="zoomable">
+      <p class="caption">Gestion du code, intégration continue et déploiement via GitLab.</p>
+    </div>
   </div>
 </div>
 
