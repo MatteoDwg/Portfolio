@@ -176,7 +176,7 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
   </p>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
-    <img src="images/gitlab-branches.png" alt="Schéma du workflow GitFlow utilisé" class="zoomable zoomable-item">
+    <img src="images/gitlab_branches.png" alt="Schéma du workflow GitFlow utilisé" class="zoomable zoomable-item">
     <p class="caption">Schéma du workflow de branches GitLab</p>
   </div>
 
