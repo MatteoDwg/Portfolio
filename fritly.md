@@ -6,6 +6,17 @@ description: "Application interne pour une friterie"
 
 <link rel="stylesheet" href="assets/style.css">
 
+<nav id="toc">
+  <ul>
+    <li><a href="#1-introduction">Introduction</a></li>
+    <li><a href="#2-fonctionnalités-principales">Fonctionnalités principales</a></li>
+    <li><a href="#3-stack--tools">Stack & Tools</a></li>
+    <li><a href="#4-organisation--méthodologie">Organisation & Méthodologie</a></li>
+    <li><a href="#5-cicd--environnements">CI/CD & Environnements</a></li>
+    <li><a href="#6-avancement-du-projet">Avancement du projet</a></li>
+  </ul>
+</nav>
+
 ## 1. Introduction
 
 ### Pourquoi ce projet ?
