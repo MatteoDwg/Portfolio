@@ -1,4 +1,8 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
 .project-card {
   display: flex;
   align-items: center;
