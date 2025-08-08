@@ -152,14 +152,69 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 ---
 
 ## 5. CI/CD & Environnements
-- **Branches Git** : `dev` pour les développements, `main` pour la production  
-- **Pipeline GitLab CI/CD** :  
-  - Lancement des tests automatiques  
-  - Build Docker de l’application  
-  - Déploiement automatique selon la branche (dev ou prod)
+<div style="margin-bottom: 40px;">
+  <h3>Workflow GitLab basé sur GitFlow</h3>
+  <p>
+    Le projet utilise un workflow de branches inspiré de GitFlow :  
+    <ul>
+      <li>une branche <code>main</code> dédiée à la production,</li> 
+      <li>une branche <code>develop</code> pour le développement,</li>
+      <li>des branches <code>feature-fritly-*</code> pour les nouvelles fonctionnalités,</li>  
+      <li>et des branches <code>hotfix</code> pour les corrections urgentes.</li>
+    </ul>
+  </p>
 
-*(Schéma : fonctionnement du pipeline CI/CD)*  
-*(Schéma : architecture app - Frontend → Backend → Base de données)*
+  <p>
+    Pour chaque nouvelles fonctionnalités, je vais créer une branche de feature nommée par rapport au ticket Jira correspondant à partir de la branche develop.<br/>
+    Une fois le ticket Jira terminé, une Merge Request est ouverte pour fusionner le code dans la branche develop.<br/>
+    Lorsque la version de la branche develop est testé, elle est fusionné sur la branche main, la branche de production.<br/>
+    Si je remarque un bug dans la version en production, je vais créer une branche de hotfix pour faire une correction rapide.
+  </p>
+
+  <p>
+    Ce workflow structuré permet un développement organisé, facilitant l’intégration progressive des fonctionnalités et la gestion des corrections critiques.
+  </p>
+
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
+    <img src="images/gitlab-branches.png" alt="Schéma du workflow GitFlow utilisé" class="zoomable zoomable-item">
+    <p class="caption">Schéma du workflow de branches GitLab</p>
+  </div>
+
+  <h3>Pipeline CI/CD</h3>
+  <p>
+    La pipeline CI/CD a été conçue pour coller parfaitement à ce workflow.  
+    À chaque push ou merge request (MR) sur les branches <code>develop</code> ou <code>main</code>, la pipeline lance plusieurs étapes :  
+    tests automatisés, compilation, création et push d’images Docker vers un registre dédié.
+  </p>
+
+  <p>
+    Ces images Docker sont ensuite utilisées lors de la phase de déploiement, assurant une cohérence totale entre l’environnement de build et l’environnement d’exécution.
+  </p>
+
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
+    <img src="images/gitlab-pipeline.png" alt="Pipeline GitLab CI/CD" class="zoomable zoomable-item">
+    <p class="caption">Exemple de pipeline CI/CD dans GitLab</p>
+  </div>
+
+  <h3>Environnements de développement et production</h3>
+  <p>
+    Deux environnements sont configurés :  
+    <strong>développement</strong> et <strong>production</strong>.
+  </p>
+
+  <p>
+    Lorsqu’une pipeline est déclenchée sur <code>develop</code>, l’application est automatiquement déployée sur une machine virtuelle dédiée aux tests, permettant de valider les fonctionnalités avant mise en production.
+  </p>
+
+  <p>
+    À l’inverse, un push ou une MR sur <code>main</code> déclenche un déploiement sur une VM dédiée à la production, garantissant un environnement stable et sécurisé pour les utilisateurs finaux.
+  </p>
+
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
+    <img src="images/environments.png" alt="Schéma des environnements de déploiement" class="zoomable zoomable-item">
+    <p class="caption">Illustration des environnements de déploiement</p>
+  </div>
+</div>
 
 ---
 
