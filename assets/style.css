@@ -130,4 +130,11 @@
   .tool-item {
     max-width: 100%;
   }
+  #toc {
+    font-size: 0.95em;
+    padding: 0.8em;
+  }
+  #toc ul {
+    padding-left: 0.5em;
+  }
 }
