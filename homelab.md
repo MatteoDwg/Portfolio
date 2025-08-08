@@ -7,13 +7,19 @@ description: "Infrastructure personnelle"
 <nav id="toc">
   <ul>
     <li><a href="#1-introduction">Introduction</a></li>
-    <li><a href="#2-fonctionnalités-principales">Fonctionnalités principales</a></li>
-    <li><a href="#3-stack--tools">Stack & Tools</a></li>
-    <li><a href="#4-organisation--méthodologie">Organisation & Méthodologie</a></li>
-    <li><a href="#5-cicd--environnements">CI/CD & Environnements</a></li>
-    <li><a href="#6-avancement-du-projet">Avancement du projet</a></li>
+    <li><a href="#2-materiel--infrastructure-physique">Fonctionnalités principales</a></li>
+    <li><a href="#3-réseau">Stack & Tools</a></li>
+    <li><a href="#4-virtualisation--vms-proxmox">Organisation & Méthodologie</a></li>
+    <li><a href="#5-services-hébergés">CI/CD & Environnements</a></li>
+    <li><a href="#6-déploiement--gestion">Avancement du projet</a></li>
+    <li><a href="#7-versions--évolution">Avancement du projet</a></li>
+    <li><a href="#8-objectifs-futurs">Avancement du projet</a></li>
   </ul>
 </nav>
+
+<div id="lightbox">
+  <img id="lightbox-img">
+</div>
 
 <!-- 1. Introduction -->
 ## 1. Introduction
@@ -175,7 +181,7 @@ description: "Infrastructure personnelle"
 </div>
 
 <!-- 8. Objectifs futurs -->
-## Objectifs futurs
+## 8. Objectifs futurs
 <div style="margin-bottom: 40px;">
   <ul>
     <li>Automatiser les déploiements et la configuration (ex. Ansible / scripts)</li>
