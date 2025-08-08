@@ -192,8 +192,8 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
   </p>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
-    <img src="images/gitlab-pipeline.png" alt="Pipeline GitLab CI/CD" class="zoomable zoomable-item">
-    <p class="caption">Exemple de pipeline CI/CD dans GitLab</p>
+    <img src="images/gitlab_pipeline_prod.png" alt="Pipeline GitLab CI/CD production" class="zoomable zoomable-item">
+    <p class="caption">Exemple de pipeline CI/CD en production dans GitLab</p>
   </div>
 
   <h3>Environnements de développement et production</h3>
