@@ -102,6 +102,26 @@
 #toc a:hover {
   text-decoration: underline;
 }
+
+#scrollTopBtn {
+  display: none; /* caché par défaut */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #333; /* couleur discrète */
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+#scrollTopBtn:hover {
+  background-color: #555;
+}
   
 /* --- RESPONSIVE --- */
 @media (max-width: 768px) {
