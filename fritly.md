@@ -165,10 +165,10 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
   </p>
 
   <p>
-    Pour chaque nouvelles fonctionnalités, je vais créer une branche de feature nommée par rapport au ticket Jira correspondant à partir de la branche develop.<br/>
-    Une fois le ticket Jira terminé, une Merge Request est ouverte pour fusionner le code dans la branche develop.<br/>
-    Lorsque la version de la branche develop est testé, elle est fusionné sur la branche main, la branche de production.<br/>
-    Si je remarque un bug dans la version en production, je vais créer une branche de hotfix pour faire une correction rapide.
+    Pour chaque nouvelles fonctionnalités, je vais créer une branche de <code>feature</code> nommée par rapport au ticket Jira correspondant à partir de la branche <code>develop</code>.<br/>
+    Une fois le ticket Jira terminé, une Merge Request est ouverte pour fusionner le code dans la branche <code>develop</code>.<br/><br/>
+    Lorsque la version de la branche develop est testé, elle est fusionné sur la branche <code>main</code>, la branche de production.<br/><br/>
+    Si je remarque un bug dans la version en production, je vais créer une branche de <code>hotfix</code> pour faire une correction rapide.
   </p>
 
   <p>
