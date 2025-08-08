@@ -122,8 +122,8 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
     À la fin de chaque sprint, on obtient une version fonctionnelle du produit, permettant d’ajuster rapidement les priorités en fonction des retours.
   </p>
 
-  <div class="tool-item">
-    <img src="images/scrum_agile.png" alt="Cycle scrum" class="zoomable">
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
+    <img src="images/scrum_agile.png" alt="Cycle scrum" class="zoomable" style="max-width: 80%;">
     <p class="caption">Cycle de la méthode Scrum.</p>
   </div>
 
