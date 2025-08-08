@@ -114,11 +114,41 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 ---
 
 ## 4. Organisation & Méthodologie
-- Méthode **Scrum simplifiée** : backlog, itérations courtes, priorisation des fonctionnalités essentielles.  
-- Répartition des rôles :
-  - **Moi** : développement complet, CI/CD, déploiement  
-  - **Collaborateur** : UX/UI et design des interfaces (via Figma)
+<div style="margin-bottom: 40px;">
+  <h3>Introduction à Agile et Scrum</h3>
+  <p>
+    Agile Scrum est une méthode de gestion de projet qui privilégie la flexibilité et l’adaptation.  
+    Plutôt que de planifier un projet en entier dès le départ, Scrum découpe le travail en cycles courts, appelés <em>sprints</em>.  
+    À la fin de chaque sprint, on obtient une version fonctionnelle du produit, permettant d’ajuster rapidement les priorités en fonction des retours.
+  </p>
 
+  <div class="tool-item">
+    <img src="images/scrum_agile.png" alt="Cycle scrum" class="zoomable">
+    <p class="caption">Cycle de la méthode Scrum.</p>
+  </div>
+
+  <h3>Notre adaptation de Scrum</h3>
+  <p>
+    Sur Fritly, nous appliquons Scrum de manière adaptée à notre contexte.  
+    Nous ne réalisons pas de réunions quotidiennes (« daily scrums »), car nous travaillons à temps partiel sur le projet et chacun avance selon ses disponibilités.  
+    À la place, nous faisons des points ponctuels pour faire le bilan, réaligner les objectifs et ajuster le backlog si nécessaire.
+  </p>
+
+  <h3>Gestion des versions : MVP et au-delà</h3>
+  <p>
+    Actuellement, nous sommes en phase de <strong>MVP</strong> (Minimum Viable Product).  
+    Cela signifie que nous développons d’abord une base solide avec les fonctionnalités essentielles pour rapidement tester le produit.  
+    Après cette étape, nous prévoyons un développement itératif, avec des ajouts, améliorations et corrections, toujours guidés par les retours utilisateurs.
+  </p>
+
+  <h3>Qui travaille sur Fritly ?</h3>
+  <p>
+    Le projet est porté par deux personnes :  
+    je m’occupe du développement, du déploiement, de la gestion du CI/CD, de l’analyse et de la planification,  
+    tandis qu’un ami graphiste est responsable du design UX/UI.  
+    Cette organisation nous permet de couvrir l’ensemble des besoins du projet malgré notre petite équipe.
+  </p>
+</div>
 ---
 
 ## 5. CI/CD & Environnements
