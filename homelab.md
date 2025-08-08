@@ -16,8 +16,8 @@ description: "Infrastructure personnelle"
 </nav>
 
 <!-- 1. Introduction -->
-<section id="intro">
-  <h2>Introduction</h2>
+## 1. Introduction
+<div style="margin-bottom: 40px;">
   <p>
     Mon homelab sert à apprendre, tester des architectures, héberger des services personnels et fournir un
     environnement de développement proche de la production. Il combine matériel physique (rack / serveurs / switchs),
@@ -25,15 +25,15 @@ description: "Infrastructure personnelle"
   </p>
 
   <!-- schéma global -->
-  <figure>
-    <img src="images/homelab_overview.png" alt="Vue d'ensemble du Homelab (schéma)" class="zoomable">
-    <figcaption>Vue d’ensemble : matériel, virtualisation, réseau et services (schéma simplifié).</figcaption>
-  </figure>
-</section>
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
+    <img src="images/homelab_schema.png" alt="Vue d'ensemble du Homelab (schéma)" class="zoomable zoomable-item">
+    <p class="caption">Vue d’ensemble : matériel, virtualisation, réseau et services (schéma simplifié).</p>
+  </div>
+</div>
 
 <!-- 2. Matériel & Infrastructure physique -->
-<section id="hardware">
-  <h2>Matériel & Infrastructure physique</h2>
+## 2. Materiel & Infrastructure physique
+<div style="margin-bottom: 40px;">
   <p>Liste synthétique du matériel principal et de l’infrastructure physique.</p>
 
   <ul>
@@ -44,29 +44,30 @@ description: "Infrastructure personnelle"
     <li><strong>Périphériques :</strong> imprimante 3D (pilotée via OctoPrint), équipements IoT</li>
   </ul>
 
-  <figure>
-    <img src="images/homelab_rack.jpg" alt="Photo du rack / serveurs" class="zoomable">
-    <figcaption>Photo du rack / armoire serveur (exemple).</figcaption>
-  </figure>
-</section>
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
+    <img src="images/homelab_rack.png" alt="Photo du rack / serveurs" class="zoomable zoomable-item">
+    <p class="caption">Photo du rack / armoire serveur (exemple).</p>
+  </div>
+</div>
 
 <!-- 3. Réseau -->
-<section id="network">
+## 3. Réseau
+<div style="margin-bottom: 40px;">
   <h2>Réseau</h2>
   <p>
     Le réseau est segmenté par VLANs pour isoler les zones (infrastructure, services, IoT, DMZ). Un VPN assure
     l’accès distant sécurisé. Le firewall applique des règles entre les segments et filtre l’accès externe.
   </p>
 
-  <figure>
-    <img src="images/homelab_network_schema.png" alt="Schéma réseau (VLAN, VPN, firewall)" class="zoomable">
-    <figcaption>Schéma réseau : VLANs, firewall, VPN et séparation des environnements.</figcaption>
-  </figure>
-</section>
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
+    <img src="images/homelab_network_schema.png" alt="Schéma réseau (VLAN, VPN, firewall)" class="zoomable zoomable-item">
+    <p class="caption">Schéma réseau : VLANs, firewall, VPN et séparation des environnements.</p>
+  </div>
+</div>
 
 <!-- 4. Virtualisation & VMs -->
-<section id="virtualization">
-  <h2>Virtualisation & VMs (Proxmox)</h2>
+## 4. Virtualisation & VMs (Proxmox)
+<div style="margin-bottom: 40px;">
   <p>
     Proxmox est l’hyperviseur central. Les services sont déployés dans des VMs ou des conteneurs LXC selon le besoin.
     Quelques VMs clés sont dédiées au développement et à la production.
@@ -107,11 +108,11 @@ description: "Infrastructure personnelle"
     </table>
     <figcaption>Tableau synthétique des VMs importantes.</figcaption>
   </figure>
-</section>
+</div>
 
 <!-- 5. Services hébergés -->
-<section id="services">
-  <h2>Services hébergés</h2>
+## 5. Services hébergés
+<div style="margin-bottom: 40px;">
   <p>Principaux services organisés par catégorie.</p>
 
   <h4>Administration & Dev</h4>
@@ -143,43 +144,43 @@ description: "Infrastructure personnelle"
     <li>Cloudflared (tunnel / DNS) et autres outils d’accès</li>
   </ul>
 
-  <figure>
-    <img src="images/homelab_homepage.png" alt="Homepage / Dashboard" class="zoomable">
-    <figcaption>Exemple : dashboard / homepage interne.</figcaption>
-  </figure>
-</section>
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
+    <img src="images/homelab_homepage.png" alt="Homepage / Dashboard" class="zoomable zoomable-item">
+    <p class="caption">Exemple : dashboard / homepage interne.</p>
+  </div>
+</div>
 
 <!-- 6. Déploiement & gestion (Docker-compose) -->
-<section id="deployment">
-  <h2>Déploiement & gestion</h2>
+## 6. Déploiement & gestion
+<div style="margin-bottom: 40px;">
   <p>
     Les services sont principalement déployés via <strong>Docker Compose</strong>. Les images sont construites localement
     ou récupérées depuis un registre, et lancées sur les VMs appropriées. Les mises à jour sont réalisées manuellement ou via
     scripts d’assistance pour orchestrer restart / backup.
   </p>
 
-  <figure>
-    <img src="images/docker-compose-example.png" alt="Extrait docker-compose" class="zoomable">
-    <figcaption>Extrait simplifié d’un fichier <code>docker-compose.yml</code> utilisé.</figcaption>
-  </figure>
-</section>
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
+    <img src="images/docker-compose-example" alt="Extrait docker-compose" class="zoomable zoomable-item">
+    <p class="caption">Extrait simplifié d’un fichier <code>docker-compose.yml</code> utilisé.</p>
+  </div>
+</div>
 
 <!-- 7. Versions (V1 / V2) -->
-<section id="versions">
-  <h2>Versions & évolution</h2>
+## 7. Versions & évolution
+<div style="margin-bottom: 40px;">
   <p>
     <strong>V1</strong> : infrastructure initiale en place (Proxmox, services de base, réseau segmenté).  
     <strong>V2</strong> : en préparation — objectifs : meilleure isolation réseau, montée en performance, automatisation accrue, et rationalisation des backups.
   </p>
-</section>
+</div>
 
 <!-- 8. Objectifs futurs -->
-<section id="objectives">
-  <h2>Objectifs futurs</h2>
+## Objectifs futurs
+<div style="margin-bottom: 40px;">
   <ul>
     <li>Automatiser les déploiements et la configuration (ex. Ansible / scripts)</li>
     <li>Renforcer la sécurité réseau et le monitoring</li>
     <li>Documenter et publier certains modèles (playbooks / templates)</li>
     <li>Finaliser V2 (matériel + architecture)</li>
   </ul>
-</section>
+</div>
