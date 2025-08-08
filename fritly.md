@@ -199,10 +199,19 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 
   <h3>Environnements de développement et production</h3>
   <p>
-    Dans mon workflow, j'ai 2 environenement distincts : <br/> 
+    Dans mon workflow, j'ai 2 environenement distincts : 
     <strong>développement</strong> et <strong>production</strong>.
   </p>
 
+  <p>
+    C'est à dire qu'en fonction de l'environnement, le déroulement de la pipeline en interne sera différente.<br/>
+    En developpement, le build de l'image docker et le deploiement se fera dans une configuration spécifique pour tester l'application.<br/>
+    En production, c'est la même chose mais spécialement pour que ce soit accessible au publique donc plus restreint.
+  </p>
+
+  <p>
+    Pour cela, j'ai mis en place 2 machines virtuelles, configurées pour avoir un environnement de test et un environnement de production.
+  </p>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
     <img src="images/environments.png" alt="Schéma des environnements de déploiement" class="zoomable zoomable-item">
