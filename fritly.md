@@ -14,11 +14,9 @@ Après plusieurs années à travailler dans une friterie, j’ai réalisé qu’
 ### L’objectif
 Créer une application pensée pour les employés :
 
-gérer facilement les horaires, absences et remplacements,
-
-centraliser toutes les informations utiles (procédures, fiches quotidiennes, etc.),
-
-et poser les bases pour ajouter d’autres fonctionnalités au fur et à mesure des besoins.
+- gérer facilement les horaires, absences et remplacements,
+- centraliser toutes les informations utiles (procédures, fiches quotidiennes, etc.),
+- et poser les bases pour ajouter d’autres fonctionnalités au fur et à mesure des besoins.
 
 ### Une collaboration
 Je développe l’application, tandis qu’un ami graphiste/designer s’occupe de l’UX/UI. L’idée est d’allier fonctionnalité et ergonomie dès le départ.
