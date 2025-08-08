@@ -142,8 +142,10 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
   <h3>Qui travaille sur Fritly ?</h3>
   <p>
     Le projet est porté par deux personnes :  
-    - je m’occupe du développement, du déploiement, de la gestion du CI/CD, de l’analyse et de la planification,  
-    - tandis qu’un ami graphiste est responsable du design UX/UI.  
+    <ul>
+      <li>je m’occupe du développement, du déploiement, de la gestion du CI/CD, de l’analyse et de la planification,</li>
+      <li>tandis qu’un ami graphiste est responsable du design UX/UI.</li>
+    </ul>
     Cette organisation nous permet de couvrir l’ensemble des besoins du projet malgré notre petite équipe.
   </p>
 </div>
