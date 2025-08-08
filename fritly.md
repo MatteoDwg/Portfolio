@@ -223,9 +223,20 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 ---
 
 ## 6. Avancement du projet
-- **Déjà réalisé** : *(liste rapide, ex. maquettes Figma, base de l’API, premier prototype frontend, pipeline CI/CD configuré, etc.)*  
-- **En cours / à venir** :
-  - Développement complet des fonctionnalités
-  - Tests utilisateurs internes
-  - Déploiement en production
-  - Améliorations basées sur les retours des employés
+<div style="margin-bottom: 40px;">
+  <p>
+    Le projet <strong>Fritly</strong> est actuellement en phase de lancement.
+    Les premières étapes ont été consacrées à préparer un socle technique solide et à poser les bases fonctionnelles.
+  </p>
+  
+  <ul>
+    <li><strong>Analyse initiale</strong> : définition des objectifs, identification des besoins et choix des technologies.</li>
+    <li><strong>Mise en place du pipeline CI/CD</strong> : configuration du workflow GitLab, automatisation du build, push et déploiement via Docker.</li>
+    <li><strong>Configuration des environnements</strong> : séparation claire entre l’environnement de développement (VM interne) et de production (VM accessible).</li>
+    <li><strong>Première ébauche de maquette</strong> : conception sur Figma pour poser l’interface et l’expérience utilisateur.</li>
+  </ul>
+  
+  <p>
+    Le projet est donc en <strong>phase préparatoire</strong>, avec un socle technique prêt à accueillir les premiers développements fonctionnels.
+  </p>
+</div>
