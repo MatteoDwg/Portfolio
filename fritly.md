@@ -115,8 +115,8 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 <div style="margin-bottom: 40px;">
   <h3>Introduction à Agile et Scrum</h3>
   <p>
-    Agile Scrum est une méthode de gestion de projet qui privilégie la flexibilité et l’adaptation.  
-    Plutôt que de planifier un projet en entier dès le départ, Scrum découpe le travail en cycles courts, appelés <em>sprints</em>.  
+    Agile Scrum est une méthode de gestion de projet qui privilégie la flexibilité et l’adaptation.<br/>  
+    Plutôt que de planifier un projet en entier dès le départ, Scrum découpe le travail en cycles courts, appelés <em>sprints</em>.<br/>  
     À la fin de chaque sprint, on obtient une version fonctionnelle du produit, permettant d’ajuster rapidement les priorités en fonction des retours.
   </p>
 
