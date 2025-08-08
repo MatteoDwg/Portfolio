@@ -29,7 +29,10 @@
 
 .zoomable {
   cursor: pointer;
-  #transition: 0.3s;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 .zoomable:hover {
   #opacity: 0.8;
@@ -66,13 +69,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.tool-item img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .caption {
