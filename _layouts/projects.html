@@ -35,7 +35,7 @@
       </a>
       
       {{ content }}
-
+      <button onclick="scrollToTop()" id="scrollTopBtn" title="Retour en haut">↑</button>
       <footer class="site-footer">
           <span class="site-footer-credits">© 2025 Mattéo Dewaegheneire - Portfolio</span>
       </footer>
@@ -52,6 +52,20 @@
       lightbox.addEventListener("click", () => {
         lightbox.style.display = "none";
       });
+
+      window.onscroll = function() {
+        const btn = document.getElementById("scrollTopBtn");
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+          btn.style.display = "block";
+        } else {
+          btn.style.display = "none";
+        }
+      };
+    
+      // Fonction pour remonter
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
     </script>
   </body>
 </html>
