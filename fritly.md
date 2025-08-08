@@ -120,7 +120,7 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
     À la fin de chaque sprint, on obtient une version fonctionnelle du produit, permettant d’ajuster rapidement les priorités en fonction des retours.
   </p>
 
-  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
     <img src="images/scrum_agile.png" alt="Cycle scrum" class="zoomable zoomable-item" style="max-width: 80%;">
     <p class="caption">Cycle de la méthode Scrum.</p>
   </div>
@@ -175,7 +175,7 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
     Ce workflow structuré permet un développement organisé, facilitant l’intégration progressive des fonctionnalités et la gestion des corrections critiques.
   </p>
 
-  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
     <img src="images/gitlab_branches.png" alt="Schéma du workflow GitFlow utilisé" class="zoomable zoomable-item" style="max-width: 80%">
     <p class="caption">Schéma du workflow de branches GitLab</p>
   </div>
@@ -191,8 +191,8 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
     Ces images Docker sont ensuite utilisées lors de la phase de déploiement, assurant une cohérence totale entre l’environnement de build et l’environnement d’exécution.
   </p>
 
-  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
-    <img src="images/gitlab_pipeline_prod.png" alt="Pipeline GitLab CI/CD production" class="zoomable zoomable-item">
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
+    <img src="images/gitlab_pipeline_prod.png" alt="Pipeline GitLab CI/CD production" class="zoomable zoomable-item" style="max-width: 90%">
     <p class="caption">Exemple de pipeline CI/CD en production dans GitLab</p>
   </div>
 
@@ -210,7 +210,7 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
     À l’inverse, un push ou une MR sur <code>main</code> déclenche un déploiement sur une VM dédiée à la production, garantissant un environnement stable et sécurisé pour les utilisateurs finaux.
   </p>
 
-  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;">
+  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
     <img src="images/environments.png" alt="Schéma des environnements de déploiement" class="zoomable zoomable-item">
     <p class="caption">Illustration des environnements de déploiement</p>
   </div>
