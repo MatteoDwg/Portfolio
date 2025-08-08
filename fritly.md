@@ -210,7 +210,8 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
   </p>
 
   <p>
-    Pour cela, j'ai mis en place 2 machines virtuelles, configurées pour avoir un environnement de test et un environnement de production.
+    Pour cela, j'ai mis en place 2 machines virtuelles, configurées pour avoir un environnement de test et un environnement de production.<br/>
+    Ce qui permet dans ces 2 VMs de déployer les applications, c'est un environnement Docker via des docker-compose (fichier de configuration permettant de lancer des conteneurs Docker).
   </p>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
