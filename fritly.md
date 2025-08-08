@@ -127,23 +127,23 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 
   <h3>Notre adaptation de Scrum</h3>
   <p>
-    Sur Fritly, nous appliquons Scrum de manière adaptée à notre contexte.  
-    Nous ne réalisons pas de réunions quotidiennes (« daily scrums »), car nous travaillons à temps partiel sur le projet et chacun avance selon ses disponibilités.  
+    Sur Fritly, nous appliquons Scrum de manière adaptée à notre contexte.<br/>  
+    Nous ne réalisons pas de réunions quotidiennes (« daily scrums »), car nous travaillons à temps partiel sur le projet et chacun avance selon ses disponibilités. <br/>  
     À la place, nous faisons des points ponctuels pour faire le bilan, réaligner les objectifs et ajuster le backlog si nécessaire.
   </p>
 
   <h3>Gestion des versions : MVP et au-delà</h3>
   <p>
-    Actuellement, nous sommes en phase de <strong>MVP</strong> (Minimum Viable Product).  
-    Cela signifie que nous développons d’abord une base solide avec les fonctionnalités essentielles pour rapidement tester le produit.  
+    Actuellement, nous sommes en phase de <strong>MVP</strong> (Minimum Viable Product).<br/>  
+    Cela signifie que nous développons d’abord une base solide avec les fonctionnalités essentielles pour rapidement tester le produit. <br/>  
     Après cette étape, nous prévoyons un développement itératif, avec des ajouts, améliorations et corrections, toujours guidés par les retours utilisateurs.
   </p>
 
   <h3>Qui travaille sur Fritly ?</h3>
   <p>
     Le projet est porté par deux personnes :  
-    je m’occupe du développement, du déploiement, de la gestion du CI/CD, de l’analyse et de la planification,  
-    tandis qu’un ami graphiste est responsable du design UX/UI.  
+    - je m’occupe du développement, du déploiement, de la gestion du CI/CD, de l’analyse et de la planification,  
+    - tandis qu’un ami graphiste est responsable du design UX/UI.  
     Cette organisation nous permet de couvrir l’ensemble des besoins du projet malgré notre petite équipe.
   </p>
 </div>
