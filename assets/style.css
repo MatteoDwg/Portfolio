@@ -111,16 +111,21 @@
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #333; /* couleur discrète */
-  color: white;
+  background-color: #24292e; /* Couleur Cayman */
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 12px;
   border-radius: 50%;
-  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+}
+
+#scrollTopBtn svg {
+  display: block;
 }
 
 #scrollTopBtn:hover {
-  background-color: #555;
+  background-color: #0366d6;
 }
   
 /* --- RESPONSIVE --- */
