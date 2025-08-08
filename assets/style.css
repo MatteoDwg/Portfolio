@@ -123,10 +123,6 @@
 #scrollTopBtn svg {
   display: block;
 }
-
-#scrollTopBtn:hover {
-  background-color: #0366d6;
-}
   
 /* --- RESPONSIVE --- */
 @media (max-width: 768px) {
