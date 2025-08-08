@@ -7,13 +7,13 @@ description: "Infrastructure personnelle"
 <nav id="toc">
   <ul>
     <li><a href="#1-introduction">Introduction</a></li>
-    <li><a href="#2-materiel--infrastructure-physique">Fonctionnalités principales</a></li>
-    <li><a href="#3-réseau">Stack & Tools</a></li>
-    <li><a href="#4-virtualisation--vms-proxmox">Organisation & Méthodologie</a></li>
-    <li><a href="#5-services-hébergés">CI/CD & Environnements</a></li>
-    <li><a href="#6-déploiement--gestion">Avancement du projet</a></li>
-    <li><a href="#7-versions--évolution">Avancement du projet</a></li>
-    <li><a href="#8-objectifs-futurs">Avancement du projet</a></li>
+    <li><a href="#2-materiel--infrastructure-physique">Materiel & Infrastructure physique</a></li>
+    <li><a href="#3-réseau">Réseau</a></li>
+    <li><a href="#4-virtualisation--vms-proxmox">Virtualisation & VMs (Proxmox)</a></li>
+    <li><a href="#5-services-hébergés">Services hébergés</a></li>
+    <li><a href="#6-déploiement--gestion">Déploiement & gestion</a></li>
+    <li><a href="#7-versions--évolution">Versions & évolution</a></li>
+    <li><a href="#8-objectifs-futurs">Objectifs futurs</a></li>
   </ul>
 </nav>
 
@@ -59,7 +59,6 @@ description: "Infrastructure personnelle"
 <!-- 3. Réseau -->
 ## 3. Réseau
 <div style="margin-bottom: 40px;">
-  <h2>Réseau</h2>
   <p>
     Le réseau est segmenté par VLANs pour isoler les zones (infrastructure, services, IoT, DMZ). Un VPN assure
     l’accès distant sécurisé. Le firewall applique des règles entre les segments et filtre l’accès externe.
