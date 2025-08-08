@@ -215,7 +215,7 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
   </p>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/environments.png" alt="Schéma des environnements de déploiement" class="zoomable zoomable-item">
+    <img src="images/environments.png" alt="Schéma des environnements de déploiement" class="zoomable zoomable-item" style="max-width:80%">
     <p class="caption">Illustration des environnements de déploiement</p>
   </div>
 </div>
