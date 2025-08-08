@@ -182,13 +182,14 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 
   <h3>Pipeline CI/CD</h3>
   <p>
-    La pipeline CI/CD a été conçue pour coller parfaitement à ce workflow.  
-    À chaque push ou merge request (MR) sur les branches <code>develop</code> ou <code>main</code>, la pipeline lance plusieurs étapes :  
-    tests automatisés, compilation, création et push d’images Docker vers un registre dédié.
-  </p>
-
-  <p>
-    Ces images Docker sont ensuite utilisées lors de la phase de déploiement, assurant une cohérence totale entre l’environnement de build et l’environnement d’exécution.
+    La pipeline CI/CD a été conçue pour coller parfaitement à ce workflow.<br/>
+    À chaque push ou merge request (MR) sur n'importe quelle branche, une pipeline se déclenchera.<br/>
+    Mais le nombre de job executé sera différent en fonction du type de branche.<br/>
+    <ul>
+      <li>une branche <code>feature/hotfix</code>: lint, test et build</li>
+      <li>la branche <code>develop</code>: lint, test, build, build/push image docker et deploiement sur l'environnement de developpement</li>
+      <li>la branche <code>main</code>: lint, test, build, build/push image docker, migration base de donnée et deploiement sur l'environnement de production</li>
+    </ul>
   </p>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
@@ -198,17 +199,10 @@ Je développe l’application, tandis qu’un ami graphiste/designer s’occupe 
 
   <h3>Environnements de développement et production</h3>
   <p>
-    Deux environnements sont configurés :  
+    Dans mon workflow, j'ai 2 environenement distincts : <br/> 
     <strong>développement</strong> et <strong>production</strong>.
   </p>
 
-  <p>
-    Lorsqu’une pipeline est déclenchée sur <code>develop</code>, l’application est automatiquement déployée sur une machine virtuelle dédiée aux tests, permettant de valider les fonctionnalités avant mise en production.
-  </p>
-
-  <p>
-    À l’inverse, un push ou une MR sur <code>main</code> déclenche un déploiement sur une VM dédiée à la production, garantissant un environnement stable et sécurisé pour les utilisateurs finaux.
-  </p>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
     <img src="images/environments.png" alt="Schéma des environnements de déploiement" class="zoomable zoomable-item">
