@@ -28,12 +28,14 @@ description: "Infrastructure personnelle"
     Mon homelab sert à apprendre, tester des architectures, héberger des services personnels et fournir un
     environnement de développement proche de la production. Il combine matériel physique (rack / serveurs / switchs),
     virtualisation (Proxmox) et une collection de services conteneurisés.
+    <br/><br/>
+    Pour des raisons de sécurité, certaines informations ont été modifiées ou généralisées. Les schémas et descriptions ne reflètent donc pas exactement la configuration réelle de mon homelab.
   </p>
 
   <!-- schéma global -->
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/homelab_schema.png" alt="Vue d'ensemble du Homelab (schéma)" class="zoomable zoomable-item" style="max-width: 80%;">
-    <p class="caption">Vue d’ensemble : matériel, réseau et services (schéma simplifié).</p>
+    <img src="images/homepage_dashboard.png" alt="Dashboard gethomepage.dev" class="zoomable zoomable-item" style="max-width: 80%;">
+    <p class="caption">Dashboard gethomepage.dev.</p>
   </div>
 </div>
 
@@ -43,14 +45,14 @@ description: "Infrastructure personnelle"
   <p>Liste synthétique du matériel principal et de l’infrastructure physique.</p>
 
   <ul>
-    <li><strong>Serveurs :</strong> 1 serveur Proxmox (3 VMs)</li>
+    <li><strong>Serveurs :</strong> 1 serveur Proxmox (3 VMs) et 2 Raspberry pi</li>
     <li><strong>Switchs :</strong> 3 switchs manageables</li>
     <li><strong>Routeurs / Firewall :</strong> 1 Ubiquiti ER-X</li>
     <li><strong>Périphériques :</strong> imprimante classique, imprimante 3D, équipements IoT</li>
   </ul>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/homelab_rack.png" alt="Photo du rack / serveurs" class="zoomable zoomable-item">
+    <img src="images/homelab_rack.png" alt="Photo du rack / serveurs" class="zoomable zoomable-item" style="max-width: 30%">
     <p class="caption">Photo du rack / armoire serveur (non contractuelle).</p>
   </div>
 </div>
@@ -59,13 +61,15 @@ description: "Infrastructure personnelle"
 ## 3. Réseau
 <div style="margin-bottom: 40px;">
   <p>
-    Le réseau est segmenté par VLANs pour isoler les zones (infrastructure, services, IoT, DMZ). Un VPN assure
-    l’accès distant sécurisé. Le firewall applique des règles entre les segments et filtre l’accès externe.
+    Mon homelab repose sur une architecture réseau segmentée afin d’isoler les usages et renforcer la sécurité.<br/>
+    Plusieurs VLAN sont utilisés pour séparer les environnements (production, développement, IoT, invités, etc.), avec un pare-feu configuré pour limiter la communication entre les segments.<br/>
+    L’accès distant est sécurisé via un VPN et des tunnels sécurisés, ce qui permet de gérer les services à distance tout en minimisant l’exposition directe sur Internet.<br/>
+    Un DNS interne facilite la résolution des noms locaux, tandis qu’un DNS public gère les services accessibles depuis l’extérieur. Les certificats SSL sont déployés automatiquement pour garantir un chiffrement bout-à-bout.
   </p>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/homelab_network_schema.png" alt="Schéma réseau (VLAN, VPN, firewall)" class="zoomable zoomable-item">
-    <p class="caption">Schéma réseau : VLANs, firewall, VPN et séparation des environnements.</p>
+    <img src="images/homelab_schema.png" alt="Vue d'ensemble du Homelab (schéma)" class="zoomable zoomable-item" style="max-width: 80%;">
+    <p class="caption">Vue d’ensemble : matériel, réseau et services (non contractuelle).</p>
   </div>
 </div>
 
