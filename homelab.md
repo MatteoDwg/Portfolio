@@ -34,7 +34,7 @@ description: "Infrastructure personnelle"
 
   <!-- schéma global -->
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/homelab.png" alt="homelab" class="zoomable zoomable-item" style="max-width: 70%;">
+    <img src="images/homelab.png" alt="homelab" class="zoomable zoomable-item" style="max-width: 60%;">
   </div>
 </div>
 
