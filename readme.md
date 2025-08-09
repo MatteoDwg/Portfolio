@@ -16,12 +16,11 @@
 </div>
 
 ## À propos
-Je suis passionné par l’informatique depuis plusieurs années, avec un intérêt particulier pour le développement et l’administration des systèmes et réseaux.
+Passionné d’informatique depuis plusieurs années, je me définis comme un profil hybride mêlant développement full-stack et expertise technique en administration systèmes, réseaux et DevOps. Cette double compétence me permet d’appréhender les projets dans leur globalité, du code à l’infrastructure, avec une compréhension fine des enjeux architecturaux et opérationnels.
 
-Mon objectif actuel est de débuter ma carrière comme développeur full-stack ou technicien systèmes et réseaux, tout en continuant à me perfectionner sur les aspects techniques et architecturaux des systèmes.
+Mon objectif est d’entamer ma carrière comme **développeur junior** ou **technicien systèmes et réseaux**, tout en continuant à approfondir mes connaissances techniques et à expérimenter des solutions complètes à travers mes projets personnels.
 
-Actuellement à la recherche d’opportunités en tant que **développeur junior** ou **technicien support/système**,  
-je construis des projets personnels pour développer mes compétences techniques.
+Je suis à la recherche d’opportunités où je pourrai mettre à profit cette polyvalence pour contribuer efficacement à des équipes agiles et innovantes.
 
 ---
 
