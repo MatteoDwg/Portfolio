@@ -34,8 +34,7 @@ description: "Infrastructure personnelle"
 
   <!-- schéma global -->
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/homepage_dashboard.png" alt="Dashboard gethomepage.dev" class="zoomable zoomable-item" style="max-width: 70%;">
-    <p class="caption">Dashboard gethomepage.dev.</p>
+    <img src="images/homelab.png" alt="homelab" class="zoomable zoomable-item" style="max-width: 70%;">
   </div>
 </div>
 
@@ -92,41 +91,62 @@ description: "Infrastructure personnelle"
 <!-- 5. Services hébergés -->
 ## 5. Services hébergés
 <div style="margin-bottom: 40px;">
-  <p>Principaux services organisés par catégorie.</p>
-
-  <h4>Administration & Dev</h4>
+  <p>
+    Mon homelab héberge une série de services couvrant le développement, l'administration, la sécurité et des usages personnels.
+    Le déploiement est principalement réalisé via <strong>Docker Compose</strong>, la supervision et la gestion des conteneurs se fait avec <strong>Portainer</strong>,
+    et le routage/gestion des certificats est centralisé via <strong>Traefik</strong>.
+  </p>
+  
+  <p class="note">
+    <em>Remarque&nbsp;: les descriptions et illustrations ci-dessous sont à visée pédagogique. Certains détails ont été généralisés pour préserver la sécurité de l’infrastructure.</em>
+  </p>
+  
+  <h3>Exemples de services hébergés (par catégorie)</h3>
+  
+  <h4>Administration & supervision</h4>
   <ul>
-    <li>GitLab (dépôt & CI), GitLab Runner</li>
-    <li>Portainer (gestion Docker)</li>
-    <li>Traefik (reverse proxy)</li>
-    <li>homepage.dev (page d’accueil interne)</li>
+    <li><strong>Portainer</strong> — interface de gestion des containers et supervision rapide.</li>
+    <li><strong>Traefik</strong> — reverse proxy et gestion automatique des certificats TLS.</li>
+    <li><strong>Uptime-Kuma</strong> — monitoring de disponibilité des services.</li>
+    <li><strong>Homepage</strong> — dashboard interne centralisant les accès aux services.</li>
+  </ul>
+  
+  <h4>Sécurité & identité</h4>
+  <ul>
+    <li><strong>Authentik</strong> — gestion des accès / SSO pour centraliser les authentifications.</li>
+    <li><strong>Bitwarden</strong> — coffre de mots de passe auto-hébergé.</li>
+    <li><strong>Pi-hole</strong> &amp; <strong>CoreDNS</strong> — filtres DNS et résolution interne.</li>
+    <li><strong>Cloudflared</strong> — tunnel sécurisé pour exposer certains services sans ouvrir directement de ports publics.</li>
+  </ul>
+  
+  <h4>Développement & CI</h4>
+  <ul>
+    <li><strong>GitLab</strong> — dépôt de code et gestion des projets.</li>
+    <li><strong>GitLab Runner</strong> — exécution des jobs CI pour builds/tests.</li>
+    <li><strong>Slash</strong> — petit service de redirection d’URL personnalisé.</li>
   </ul>
 
-  <h4>Sécurité & Auth</h4>
+  <h4>Surveillance & notifications</h4>
   <ul>
-    <li>Bitwarden (vault)</li>
-    <li>Authentik (SSO / gestion identités)</li>
-    <li>Pi-hole (filtrage DNS)</li>
+    <li><strong>ntfy</strong> — système de notifications push simple et léger.</li>
+    <li><strong>Uptime-Kuma</strong> (déjà cité) — monitoring et alerting.</li>
   </ul>
 
-  <h4>Surveillance & Notifications</h4>
+  <h4>Perso & loisirs</h4>
   <ul>
-    <li>Uptime-Kuma (monitoring temps réel)</li>
-    <li>ntfy (notifications)</li>
-  </ul>
-
-  <h4>Perso / Divers</h4>
-  <ul>
-    <li>OctoPrint (imprimante 3D)</li>
-    <li>Serveur Minecraft</li>
-    <li>Slash (outil perso)</li>
-    <li>Cloudflared (tunnel / DNS) et autres outils d’accès</li>
+    <li><strong>OctoPrint</strong> — interface pour piloter l’imprimante 3D.</li>
+    <li><strong>Serveur Minecraft</strong> — serveur privé pour tests / usage personnel.</li>
   </ul>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/homelab_homepage.png" alt="Homepage / Dashboard" class="zoomable zoomable-item">
-    <p class="caption">Exemple : dashboard / homepage interne.</p>
+    <img src="images/homepage_dashboard.png" alt="Dashboard gethomepage.dev" class="zoomable zoomable-item" style="max-width: 70%;">
+    <p class="caption">Dashboard gethomepage.dev.</p>
   </div>
+  
+  <p>
+    L’ensemble est pensé pour être modulaire et reproductible : chaque service peut être démarré/arrêté ou répliqué via des fichiers
+    <code>docker-compose.yml</code> bien documentés, ce qui facilite les tests, mises à jour et migrations.
+  </p>
 </div>
 
 <!-- 6. Déploiement & gestion (Docker-compose) -->
