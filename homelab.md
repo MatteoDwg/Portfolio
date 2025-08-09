@@ -87,6 +87,7 @@ description: "Infrastructure personnelle"
   </ul>
 
   Cette séparation permet d’isoler les environnements, de limiter les risques en cas d’incident, et de segmenter l’utilisation des ressources matérielles dans le réseau.
+</div>
 
 <!-- 5. Services hébergés -->
 ## 5. Services hébergés
@@ -97,8 +98,8 @@ description: "Infrastructure personnelle"
     et le routage/gestion des certificats est centralisé via <strong>Traefik</strong>.
   </p>
   
-  <p class="note">
-    <em>Remarque&nbsp;: les descriptions et illustrations ci-dessous sont à visée pédagogique. Certains détails ont été généralisés pour préserver la sécurité de l’infrastructure.</em>
+  <p style="font-style: italic;color: #555;">
+    <em>Remarque : les descriptions et illustrations ci-dessous sont à visée pédagogique. Certains détails ont été généralisés pour préserver la sécurité de l’infrastructure.</em>
   </p>
   
   <h3>Exemples de services hébergés (par catégorie)</h3>
