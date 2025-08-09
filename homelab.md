@@ -11,9 +11,8 @@ description: "Infrastructure personnelle"
     <li><a href="#3-réseau">Réseau</a></li>
     <li><a href="#4-virtualisation--vms-proxmox">Virtualisation & VMs (Proxmox)</a></li>
     <li><a href="#5-services-hébergés">Services hébergés</a></li>
-    <li><a href="#6-déploiement--gestion">Déploiement & gestion</a></li>
-    <li><a href="#7-versions--évolution">Versions & évolution</a></li>
-    <li><a href="#8-objectifs-futurs">Objectifs futurs</a></li>
+    <li><a href="#6-versions--évolution">Versions & évolution</a></li>
+    <li><a href="#7-objectifs-futurs">Objectifs futurs</a></li>
   </ul>
 </nav>
 
@@ -95,7 +94,7 @@ description: "Infrastructure personnelle"
   <p>
     Mon homelab héberge une série de services couvrant le développement, l'administration, la sécurité et des usages personnels.
     Le déploiement est principalement réalisé via <strong>Docker Compose</strong>, la supervision et la gestion des conteneurs se fait avec <strong>Portainer</strong>,
-    et le routage/gestion des certificats est centralisé via <strong>Traefik</strong>.
+    et le routage/gestion des certificats https est centralisé via <strong>Traefik</strong>.
   </p>
   
   <p style="font-style: italic;color: #555;">
@@ -150,23 +149,8 @@ description: "Infrastructure personnelle"
   </p>
 </div>
 
-<!-- 6. Déploiement & gestion (Docker-compose) -->
-## 6. Déploiement & gestion
-<div style="margin-bottom: 40px;">
-  <p>
-    Les services sont principalement déployés via <strong>Docker Compose</strong>. Les images sont construites localement
-    ou récupérées depuis un registre, et lancées sur les VMs appropriées. Les mises à jour sont réalisées manuellement ou via
-    scripts d’assistance pour orchestrer restart / backup.
-  </p>
-
-  <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/docker-compose-example" alt="Extrait docker-compose" class="zoomable zoomable-item">
-    <p class="caption">Extrait simplifié d’un fichier <code>docker-compose.yml</code> utilisé.</p>
-  </div>
-</div>
-
-<!-- 7. Versions (V1 / V2) -->
-## 7. Versions & évolution
+<!-- 6. Versions (V1 / V2) -->
+## 6. Versions & évolution
 <div style="margin-bottom: 40px;">
   <p>
     <strong>V1</strong> : infrastructure initiale en place (Proxmox, services de base, réseau segmenté).  
@@ -174,8 +158,8 @@ description: "Infrastructure personnelle"
   </p>
 </div>
 
-<!-- 8. Objectifs futurs -->
-## 8. Objectifs futurs
+<!-- 7. Objectifs futurs -->
+## 7. Objectifs futurs
 <div style="margin-bottom: 40px;">
   <ul>
     <li>Automatiser les déploiements et la configuration (ex. Ansible / scripts)</li>
