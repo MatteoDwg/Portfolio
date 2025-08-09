@@ -45,7 +45,7 @@ description: "Infrastructure personnelle"
   <p>Liste synthétique du matériel principal et de l’infrastructure physique.</p>
 
   <ul>
-    <li><strong>Serveurs :</strong> 1 serveur Proxmox (3 VMs) et 2 Raspberry pi</li>
+    <li><strong>Serveurs :</strong> 1 serveur Proxmox (3 VMs), un laptop et 2 Raspberry pi</li>
     <li><strong>Switchs :</strong> 3 switchs manageables</li>
     <li><strong>Routeurs / Firewall :</strong> 1 Ubiquiti ER-X</li>
     <li><strong>Périphériques :</strong> imprimante classique, imprimante 3D, équipements IoT</li>
@@ -77,46 +77,17 @@ description: "Infrastructure personnelle"
 ## 4. Virtualisation & VMs (Proxmox)
 <div style="margin-bottom: 40px;">
   <p>
-    Proxmox est l’hyperviseur central. Les services sont déployés dans des VMs ou des conteneurs LXC selon le besoin.
-    Quelques VMs clés sont dédiées au développement et à la production.
+    Mon homelab repose sur une infrastructure virtualisée avec Proxmox.
+    J’y héberge plusieurs machines virtuelles, chacune ayant un rôle bien défini :
   </p>
 
-  <!-- tableau VMs -->
-  <figure>
-    <table>
-      <caption>VMs principales</caption>
-      <thead>
-        <tr>
-          <th>Nom</th>
-          <th>Rôle</th>
-          <th>Services</th>
-          <th>Remarques</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>vm-dev</td>
-          <td>Développement / staging</td>
-          <td>Traefik, Docker, GitLab, GitLab Runner</td>
-          <td>Réseau interne, accès restreint</td>
-        </tr>
-        <tr>
-          <td>vm-prod</td>
-          <td>Production</td>
-          <td>Traefik, Docker (services exposés)</td>
-          <td>VM exposée (reverse proxy + NAT)</td>
-        </tr>
-        <tr>
-          <td>vm-monitor</td>
-          <td>Monitoring & notifications</td>
-          <td>Uptime-Kuma, ntfy</td>
-          <td>Alerting interne</td>
-        </tr>
-      </tbody>
-    </table>
-    <figcaption>Tableau synthétique des VMs importantes.</figcaption>
-  </figure>
-</div>
+  <ul>
+    <li>VM Développement : environnement dédié à la gestion et au déploiement d’applications en phase de test.</li>
+    <li>VM Production : héberge les applications stables et opérationnels.</li>
+    <li>VM Multi-services : regroupe certains outils et applications utilitaires.</li>
+  </ul>
+
+  Cette séparation permet d’isoler les environnements, de limiter les risques en cas d’incident, et de segmenter l’utilisation des ressources matérielles dans le réseau.
 
 <!-- 5. Services hébergés -->
 ## 5. Services hébergés
