@@ -32,8 +32,8 @@ description: "Infrastructure personnelle"
 
   <!-- schéma global -->
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/homelab_schema.png" alt="Vue d'ensemble du Homelab (schéma)" class="zoomable zoomable-item">
-    <p class="caption">Vue d’ensemble : matériel, virtualisation, réseau et services (schéma simplifié).</p>
+    <img src="images/homelab_schema.png" alt="Vue d'ensemble du Homelab (schéma)" class="zoomable zoomable-item" style="max-width: 80%;">
+    <p class="caption">Vue d’ensemble : matériel, réseau et services (schéma simplifié).</p>
   </div>
 </div>
 
@@ -43,16 +43,15 @@ description: "Infrastructure personnelle"
   <p>Liste synthétique du matériel principal et de l’infrastructure physique.</p>
 
   <ul>
-    <li><strong>Serveurs :</strong> 1-2 nœuds Proxmox (CPU, RAM, stockage)</li>
-    <li><strong>Switchs :</strong> switch manageable avec support VLAN</li>
-    <li><strong>Routeurs / Firewall :</strong> equipment pour routage et filtrage</li>
-    <li><strong>Stockage :</strong> NAS / disques (RAID selon besoin)</li>
-    <li><strong>Périphériques :</strong> imprimante 3D (pilotée via OctoPrint), équipements IoT</li>
+    <li><strong>Serveurs :</strong> 1 serveur Proxmox (3 VMs)</li>
+    <li><strong>Switchs :</strong> 3 switchs manageables</li>
+    <li><strong>Routeurs / Firewall :</strong> 1 Ubiquiti ER-X</li>
+    <li><strong>Périphériques :</strong> imprimante classique, imprimante 3D, équipements IoT</li>
   </ul>
 
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
     <img src="images/homelab_rack.png" alt="Photo du rack / serveurs" class="zoomable zoomable-item">
-    <p class="caption">Photo du rack / armoire serveur (exemple).</p>
+    <p class="caption">Photo du rack / armoire serveur (non contractuelle).</p>
   </div>
 </div>
 
