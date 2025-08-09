@@ -34,7 +34,7 @@ description: "Infrastructure personnelle"
 
   <!-- schéma global -->
   <div style="text-align:center;display: flex;flex-direction: column;align-items: center;margin: 20px 0;">
-    <img src="images/homepage_dashboard.png" alt="Dashboard gethomepage.dev" class="zoomable zoomable-item" style="max-width: 80%;">
+    <img src="images/homepage_dashboard.png" alt="Dashboard gethomepage.dev" class="zoomable zoomable-item" style="max-width: 70%;">
     <p class="caption">Dashboard gethomepage.dev.</p>
   </div>
 </div>
