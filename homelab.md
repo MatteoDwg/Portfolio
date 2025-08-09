@@ -152,19 +152,24 @@ description: "Infrastructure personnelle"
 <!-- 6. Versions (V1 / V2) -->
 ## 6. Versions & évolution
 <div style="margin-bottom: 40px;">
-  <p>
-    <strong>V1</strong> : infrastructure initiale en place (Proxmox, services de base, réseau segmenté).  
-    <strong>V2</strong> : en préparation — objectifs : meilleure isolation réseau, montée en performance, automatisation accrue, et rationalisation des backups.
-  </p>
+  <p><strong>Version 1 (V1) :</strong><br/>
+    Cette première version tourne depuis environ un an. Elle m’a permis de construire une base stable et fonctionnelle, d’expérimenter la virtualisation, le déploiement de services, et la gestion réseau à petite échelle.</p>
+  <p><strong>Version 2 (V2) :</strong><br/> 
+    En cours de préparation, cette nouvelle version vise à améliorer la modularité, la scalabilité, et à intégrer des fonctionnalités supplémentaires adaptées à mes besoins actuels et futurs.</p>
+  <p>La V2 est pensée pour répondre aux limites identifiées dans la V1, tout en restant fidèle à la philosophie modulaire et reproductible de l’ensemble.</p>
 </div>
 
 <!-- 7. Objectifs futurs -->
 ## 7. Objectifs futurs
 <div style="margin-bottom: 40px;">
+  <p>Mon homelab est un projet évolutif. Voici quelques pistes que je souhaite explorer pour les prochaines évolutions :</p>
   <ul>
-    <li>Automatiser les déploiements et la configuration (ex. Ansible / scripts)</li>
-    <li>Renforcer la sécurité réseau et le monitoring</li>
-    <li>Documenter et publier certains modèles (playbooks / templates)</li>
-    <li>Finaliser V2 (matériel + architecture)</li>
+    <li>Améliorer la scalabilité en envisageant un cluster Proxmox ou en ajoutant des ressources matérielles.</li>
+    <li>Automatiser davantage les déploiements, sauvegardes et mises à jour.</li>
+    <li>Renforcer la sécurité avec la mise en place d’une DMZ, d’un IDS/IPS et de règles firewall avancées.</li>
+    <li>Mettre en place un NAS performant avec des solutions de sauvegarde automatique et de snapshots.</li>
+    <li>Explorer de nouvelles technologies comme Kubernetes, les services serverless, ou la virtualisation légère.</li>
+    <li>Optimiser la consommation énergétique et mettre en place un monitoring dédié.</li>
+    <li>Améliorer la documentation.</li>
   </ul>
 </div>
